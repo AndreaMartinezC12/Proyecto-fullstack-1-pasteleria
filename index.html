@@ -194,7 +194,42 @@
             </fieldset>
           </form>
         </div>
-
+      </section>
+      <section id="domicilio" class="section" aria-labelledby="domicilio-title">
+        <div class="container">
+          <header class="section-head">
+            <h2 id="domicilio-title">Domicilio de entrega</h2>
+          </header>
+          <form action="#" class="form card" method="post">
+            <fieldset>
+              <legend>Direccion para entrega</legend>
+              <div class="form-row">
+                <label for="namedest">Nombre destinatario</label>
+                <input type="text" name="namedest" id="namedest" required placeholder="Nombre del destinatario"/>
+              </div>
+              <div class="form-row">
+                <label for="calle">Calle</label>
+                <input type="text" name="calle" id="calle" required placeholder="Nombre de la calle"/>
+              </div>
+              <div class="form-row">
+                <label for="numeroext">Numero exterior</label>
+                <input type="number" id="numeroext" name="numeroext" required placeholder="Numero"/>
+              </div>
+              <div class="form-row">
+                <label for="colonia">Colonia</label>
+                <input type="text" name="colonia" id="colonia" required placeholder="Nombre de la colonia"/>
+              </div>
+              <div class="form-row">
+                <label for="mensaje">Mensaje para el destinatario</label>
+                <textarea name="mensaje" id="mensaje" rows="4" placeholder="Dedicatoria para el destinatario"></textarea>
+              </div>
+              <div class="form-row">
+                <label for="notas">Notas adicionales</label>
+                <textarea name="notas" id="notas" rows="4" placeholder="Notas adicionales sobre tu pedido"></textarea>
+              </div>        
+            </fieldset>
+          </form>
+        </div>
       </section>
 
     </main>
