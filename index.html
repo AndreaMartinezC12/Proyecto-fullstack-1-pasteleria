@@ -304,7 +304,38 @@
           </form>
         </div>
       </section>
-
+      <section id="datospago" class="section" aria-labelledby="datospago-title">
+        <div class="container">
+          <header class="section-head">
+            <h2 id="datospago-title">Datos del pago</h2>
+          </header>
+          <form action="#" class="form card" method="post">
+            <fieldset>
+              <legend>Datos de la tarjeta para hacer el pago</legend>
+              <div class="form-row">
+                <label for="nombretarjeta">Nombre en la tarjeta</label>
+                <input type="text" name="nombretarjeta" id="nombretarjeta" required placeholder="Nombre en la tarjeta"/>
+              </div>
+              <div class="form-row">
+                <label for="numerotarjeta">Numero de la tarjeta</label>
+                <input type="number" id="numerotarjeta" name="numerotarjeta"/>
+              </div>
+              <div class="form-row">
+                <label for="vencimiento">Fecha de vencimiento</label>
+                <input type="text" name="vencimiento" id="vencimiento"/>
+              </div>
+              <div class="form-row">
+                <label for="cvv">Codigo de seguridad</label>
+                <input type="number" name="cvv" id="cvv"/>
+              </div>
+              <div class="form-action">
+                <button class="btn" type="submit">Pagar y realizar pedido</button>
+                <p>Al pagar se hara llegar tu pedido a cake-to-go.</p>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
     </main>
 
   </body>
