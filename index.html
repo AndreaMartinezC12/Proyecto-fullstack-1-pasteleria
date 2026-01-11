@@ -231,6 +231,79 @@
           </form>
         </div>
       </section>
+      <section id="opcionespastel" class="section" aria-labelledby="opcionespastel-title">
+        <div class="container">
+          <header class="section-head">
+            <h2 id="opcionespastel-title">Arma tu pastel</h2>
+          </header>
+          <form action="#" class="form card" method="post">
+            <fieldset>
+              <legend>Arma tu pastel</legend>
+              <div class="form-row">
+                  <p>Tamanio del pastel:</p>
+                  <input type="radio" id="mini" name="tamanio_pastel" value="mini">
+                  <label for="mini">Mini</label><br>
+                  <input type="radio" id="chico" name="tamanio_pastel" value="chico">
+                  <label for="chico">Chico</label><br>
+                  <input type="radio" id="mediano" name="tamanio_pastel" value="mediano">
+                  <label for="mediano">Mediano</label><br>
+                  <input type="radio" id="grande" name="tamanio_pastel" value="grande">
+                  <label for="grande">Grande</label>
+              </div>
+              <div class="form-row">
+                  <p>Sabor del pan:</p>
+                  <input type="radio" id="choco" name="sabor_pan" value="choco">
+                  <label for="choco">Chocolate</label><br>
+                  <input type="radio" id="vainilla" name="sabor_pan" value="vainilla">
+                  <label for="vainilla">Vainilla</label><br>
+                  <input type="radio" id="zanahoria" name="sabor_pan" value="zanahoria">
+                  <label for="zanahoria">Zanahoria</label><br>
+                  <input type="radio" id="redvelvet" name="sabor_pan" value="redvelvet">
+                  <label for="redvelvet">Red Velvet</label><br>
+                  <input type="radio" id="tresleches" name="sabor_pan" value="tresleches">
+                  <label for="tresleches">Tres Leches</label>
+              </div>
+              <div class="form-row">
+                  <p>Relleno:</p>
+                  <input type="radio" id="mermelada" name="relleno" value="mermelada">
+                  <label for="mermelada">Mermelada</label><br>
+                  <input type="radio" id="queso_crema" name="relleno" value="queso_crema">
+                  <label for="queso_crema">Queso crema</label><br>
+                  <input type="radio" id="nutella" name="relleno" value="nutella">
+                  <label for="nutella">Nutella</label><br>
+                  <input type="radio" id="cajeta" name="relleno" value="cajeta">
+                  <label for="cajeta">Cajeta</label>
+              </div>
+              <div class="form-row">
+                  <p>Extras:</p>
+                  <input type="radio" id="ninguno" name="extras" value="ninguno">
+                  <label for="ninguno">Ninguno</label><br>
+                  <input type="radio" id="nueces" name="extras" value="nueces">
+                  <label for="nueces">Nueces</label><br>
+                  <input type="radio" id="almendras" name="extras" value="almendras">
+                  <label for="almendras">Almendras</label><br>
+                  <input type="radio" id="chispas" name="extras" value="chispas">
+                  <label for="chispas">Chispas de chocolate</label>
+              </div>              
+              <div class="form-row">
+                <p>Color del betun:</p>
+                <label for="colorbetun">Selecciona el color para el betun:</label>
+                <input type="color" id="colorbetun" name="colorbetun" value="#ff0000">
+              </div>
+              <div class="form-row">
+                <p>Que quieres que diga tu pastel?:</p>
+                <label for="msjpastel">Mensaje para el pastel:</label>
+                <input type="text" name="msjpastel" id="msjpastel" required placeholder="Feliz cumpleanios"/>
+              </div>
+              <div class="form-row">
+                <p>Quieres alguna decoracion en especifico? Describela aqui:</p>
+                <label for="descr_decoracion">Decoracion:</label>
+                <textarea name="descr_decoracion" id="descr_decoracion" rows="4" placeholder="Describe la decoracion para tu pastel"></textarea>
+              </div>              
+            </fieldset>
+          </form>
+        </div>
+      </section>
 
     </main>
 
