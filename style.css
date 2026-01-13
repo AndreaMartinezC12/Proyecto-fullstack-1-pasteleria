@@ -399,15 +399,23 @@ code {
      z-index: 1;
    }
 
-   .grid-2{
+.grid-2{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-   }
+}
 
-   .grid-2 img{
+.grid-2 img{
     width: 100%;
     height:100%;
     object-fit: cover;
     display: block;
-   }
+}
+
+figcaption{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+  color: var(--color-text-light);
+  text-align: center;
+}
