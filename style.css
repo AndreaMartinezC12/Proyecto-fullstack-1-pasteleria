@@ -9,9 +9,9 @@
 
 :root {
   /* colores principales */
-  --color-primary: #6366f1;
-  --color-primary-dark: #4f46e5;
-  --color-secondary: #8b5cf6;
+  --color-primary: #f586a0;
+  --color-primary-dark: #efeff0;
+  --color-secondary: #f3a9ca;
   --color-accent: #f59e0b;
   /* colores de texto */
   --color-text: #1f2937;
@@ -189,7 +189,7 @@ code {
 .logo-text {
     font-size: 28px;
     font-weight: 700;
-    background: linear-gradient(135deg, #6bdfe9, #f1b2ee);
+    background: linear-gradient(135deg, #e55e8d, #edceeb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -212,7 +212,7 @@ code {
 }
 
 .nav-menu a {
-    color: #7dc7da;
+    color: #e21862;
     text-decoration: none;
     transition: all 0.3s ease;
     font-weight: 600;
@@ -231,7 +231,7 @@ code {
 
 .nav-menu a.active {
     color: white;
-    background: linear-gradient(135deg, #93ddeb, #efa2d4);
+    background: linear-gradient(135deg, #ec1466, #e5c7da);
     box-shadow: 0 4px 15px rgba(89, 165, 185, 0.4);
 }
 
@@ -318,7 +318,7 @@ code {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: var(--space-md) var(--space-lg);
+  padding: var(--space-sm) var(--space-md);
   background: linear-gradient(
     135deg,
     var(--color-primary),
@@ -371,26 +371,14 @@ code {
 }
 
 .hero {
+  background-image: url(image-hero2.png);
+  background-size: auto;
+  background-position: center;
+  height:78vh;
+  width: 100%;
   padding: var(--space-3xl) 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   position: relative;
   overflow: hidden;
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  top: -50%;
-  right: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.1) 1px,
-    transparent 1px
-  );
-  background-size: 50px 50px;
-  animation: float 20s linear infinite;
 }
 
 @keyframes float {
@@ -404,7 +392,7 @@ code {
 
 .hero-grid {
      display: grid;
-     grid-template-columns: 1fr 1fr;
+     grid-template-columns:1fr 1fr;
      gap: var(--space-3xl);
      align-items: center;
      position: relative;
