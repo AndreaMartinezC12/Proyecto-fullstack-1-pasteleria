@@ -371,10 +371,10 @@ code {
 }
 
 .hero {
-  background-image: url(image-hero2.png);
-  background-size: auto;
+  background-image: url(image-hero3.png);
+  background-size: cover;
   background-position: center;
-  height:78vh;
+  height:75vh;
   width: 100%;
   padding: var(--space-3xl) 0;
   position: relative;
