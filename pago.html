@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realiza tu pago</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="datospago" class="section" aria-labelledby="datospago-title">
+        <div class="container">
+          <header class="section-head">
+            <h2 id="datospago-title">Datos del pago</h2>
+          </header>
+          <form action="#" class="form-pedido" method="post">
+            <fieldset>
+              <legend>Datos de la tarjeta para hacer el pago</legend>
+              <div class="form-row">
+                <label for="nombretarjeta">Nombre en la tarjeta</label>
+                <input type="text" name="nombretarjeta" id="nombretarjeta" required placeholder="Nombre en la tarjeta"/>
+              </div>
+              <div class="form-row">
+                <label for="numerotarjeta">Número de la tarjeta</label>
+                <input type="number" id="numerotarjeta" name="numerotarjeta"/>
+              </div>
+              <div class="form-row">
+                <label for="vencimiento">Fecha de vencimiento</label>
+                <input type="text" name="vencimiento" id="vencimiento"/>
+              </div>
+              <div class="form-row">
+                <label for="cvv">Código de seguridad</label>
+                <input type="number" name="cvv" id="cvv"/>
+              </div>
+              <div class="form-action">
+                <button class="btn" type="submit">Pagar y realizar pedido (próximamente)</button>
+                <p>Al pagar se hará llegar tu pedido a cake-to-go.</p>
+              </div>
+              <a href="index.html" class="nav-link active">Volver al inicio</a>   
+            </fieldset>
+          </form>
+        </div>
+      </section>
+</body>
+</html>
