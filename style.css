@@ -51,7 +51,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-text: #e5e7eb;
+    --color-text: #1b1c1f;
     --color-text-light: #9ca3af;
     --color-bg: #0f172a;
     --color-bg-muted: #1e293b;
@@ -553,6 +553,56 @@ figcaption{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: var(--space-md);
+}
+
+/* ===========================
+  RESENAS
+=========================== */
+.grid-3 {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 20px;
+}
+.resena-individual {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  border: 1px solid #f3f4f6;
+  transition: transform 0.2s;
+}
+.resena-individual:hover {
+  transform: translateY(-5px);
+}
+.estrellas {
+  color: #fbbf24;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+.resena-individual p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+.autor-resena {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.autor-resena img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+.autor-resena strong {
+  color: var(--color-text);
+  font-size: 0.95rem;
 }
 
 /* ===========================
