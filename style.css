@@ -370,6 +370,16 @@ code {
   font-size: 0.875rem;
 }
 
+.proceso-link{
+  color: white;
+  background: linear-gradient(135deg, #f085af, #e5c7da);
+  box-shadow: 0 4px 15px rgba(89, 165, 185, 0.4);
+  font-weight: 600;
+  padding: 5px 24px;
+  border-radius: 25px;
+  position: relative;
+}
+
 .hero {
   background-image: url(image-hero2.png);
   background-size: cover;
